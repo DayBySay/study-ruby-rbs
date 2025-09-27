@@ -1,0 +1,15 @@
+# Generated from lib/calculator.rb with RBS::Inline
+
+class Calculator
+  # @rbs (Integer a, Integer b) -> Integer
+  def add: (Integer a, Integer b) -> Integer
+
+  # @rbs (Integer a, Integer b) -> Integer
+  def subtract: (Integer a, Integer b) -> Integer
+
+  # @rbs (Integer a, Integer b) -> Integer
+  def multiply: (Integer a, Integer b) -> Integer
+
+  # @rbs (Integer a, Integer b) -> Float
+  def divide: (Integer a, Integer b) -> Float
+end

@@ -1,6 +1,0 @@
-class Calculator
-  def add: (Integer a, Integer b) -> Integer
-  def subtract: (Integer a, Integer b) -> Integer
-  def multiply: (Integer a, Integer b) -> Integer
-  def divide: (Integer a, Integer b) -> Float
-end
