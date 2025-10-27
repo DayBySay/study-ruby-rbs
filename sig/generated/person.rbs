@@ -1,0 +1,39 @@
+# Generated from lib/person.rb with RBS::Inline
+
+# 個人情報を管理するクラス
+class Person
+  @name: String
+
+  @email: String?
+
+  @age: Integer
+
+  attr_reader name: untyped
+
+  attr_reader age: untyped
+
+  attr_reader email: untyped
+
+  # @rbs (String name, Integer age, String? email) -> void
+  def initialize: (String name, Integer age, String? email) -> void
+
+  # @rbs () -> String
+  def greeting: () -> String
+
+  # @rbs () -> bool
+  def adult?: () -> bool
+
+  # @rbs () -> String?
+  def email_domain: () -> String?
+
+  # @rbs (Integer years) -> Integer
+  def age_after: (Integer years) -> Integer
+
+  # @rbs () -> person_hash
+  def to_hash: () -> person_hash
+
+  # @rbs (Person other) -> bool
+  def same_age?: (Person other) -> bool
+end
+
+type person_hash = { name: String, age: Integer, email: String? }

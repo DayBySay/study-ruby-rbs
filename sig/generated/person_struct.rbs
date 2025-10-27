@@ -1,0 +1,15 @@
+# Generated from lib/person_struct.rb with RBS::Inline
+
+# Struct を使った個人情報管理クラス
+class PersonStruct < Struct[untyped]
+  attr_accessor name(): untyped
+
+  attr_accessor age(): untyped
+
+  attr_accessor email(): untyped
+
+  def self.new: (?untyped name, ?untyped age, ?untyped email) -> instance
+              | (?name: untyped, ?age: untyped, ?email: untyped) -> instance
+end
+
+type person_struct_hash = { name: String, age: Integer, email: String? }
