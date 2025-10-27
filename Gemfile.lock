@@ -22,6 +22,7 @@ GEM
     connection_pool (2.5.4)
     csv (3.3.5)
     drb (2.2.3)
+    ffi (1.17.2-arm64-darwin)
     ffi (1.17.2-x86_64-darwin)
     fileutils (1.7.3)
     i18n (1.14.7)
@@ -77,6 +78,7 @@ GEM
     uri (1.0.3)
 
 PLATFORMS
+  arm64-darwin-24
   x86_64-darwin-24
 
 DEPENDENCIES

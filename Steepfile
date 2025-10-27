@@ -4,3 +4,10 @@ target :lib do
 
   library "pathname"
 end
+
+target :example do
+  signature "sig", "sig/generated"
+  check "example.rb"
+
+  library "pathname"
+end
