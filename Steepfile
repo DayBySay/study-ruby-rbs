@@ -4,3 +4,10 @@ target :lib do
 
   library "pathname"
 end
+
+target :app do
+  signature "sig", "sig/generated"
+  check "app"
+
+  library "pathname"
+end

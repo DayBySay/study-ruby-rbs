@@ -13,6 +13,9 @@ rbs:
 check: rbs
 	bundle exec steep check
 
+stats: rbs
+	bundle exec steep stats
+
 # クリーンアップ
 .PHONY: clean
 clean:
